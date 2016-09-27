@@ -86,6 +86,8 @@
                     <a href="https://github.com/laravel/laravel">GitHub</a>
                 </div>
             </div>
+
+            <a href="javascript:void(0)"> Trigger event </a>
         </div>
     </body>
 </html>

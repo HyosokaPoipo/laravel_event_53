@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('/trigger', [
+    'as' => 'Trigger',
+    'uses' => 'HisokaController@trigger'
+    ]);
