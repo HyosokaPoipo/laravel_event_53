@@ -87,7 +87,7 @@
                 </div>
             </div>
 
-            <a href="javascript:void(0)"> Trigger event </a>
+            <a href="/trigger"> Trigger event </a>
         </div>
     </body>
 </html>

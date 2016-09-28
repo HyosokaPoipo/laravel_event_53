@@ -8,6 +8,7 @@ use Illuminate\Broadcasting\PrivateChannel;
 use Illuminate\Broadcasting\PresenceChannel;
 use Illuminate\Broadcasting\InteractsWithSockets;
 use Illuminate\Contracts\Broadcasting\ShouldBroadcast;
+use Log;
 
 class ActionDone
 {
@@ -20,7 +21,7 @@ class ActionDone
      */
     public function __construct()
     {
-        //
+        log::info("Action-Done");
     }
 
     /**

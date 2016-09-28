@@ -5,6 +5,7 @@ namespace App\Listeners;
 use App\Events\ActionDone;
 use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
+use Log;
 
 class ADListener
 {
@@ -26,6 +27,7 @@ class ADListener
      */
     public function handle(ActionDone $event)
     {
-        //
+        sleep(120);
+        log::info("Action Done Listener...");
     }
 }
