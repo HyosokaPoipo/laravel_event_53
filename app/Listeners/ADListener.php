@@ -7,6 +7,9 @@ use Illuminate\Queue\InteractsWithQueue;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Log;
 
+//ini_set('max_execution_time',180);
+set_time_limit(180);
+
 class ADListener
 {
     /**
@@ -27,6 +30,7 @@ class ADListener
      */
     public function handle(ActionDone $event)
     {
+        log::info("executing listener...");
         sleep(120);
         log::info("Action Done Listener...");
     }
